@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.b8a9f9ff.chunk.js",
-    "main.js.map": "/static/js/main.b8a9f9ff.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.beeceac2.js",
-    "runtime~main.js.map": "/static/js/runtime~main.beeceac2.js.map",
-    "static/js/2.a7e72c82.chunk.js": "/static/js/2.a7e72c82.chunk.js",
-    "static/js/2.a7e72c82.chunk.js.map": "/static/js/2.a7e72c82.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.e6f3c2425e714313d3dab8e458da99ac.js": "/precache-manifest.e6f3c2425e714313d3dab8e458da99ac.js",
-    "service-worker.js": "/service-worker.js"
+    "main.js": "/~bnibetarotation/static/js/main.c8769113.chunk.js",
+    "main.js.map": "/~bnibetarotation/static/js/main.c8769113.chunk.js.map",
+    "runtime~main.js": "/~bnibetarotation/static/js/runtime~main.ed481ba9.js",
+    "runtime~main.js.map": "/~bnibetarotation/static/js/runtime~main.ed481ba9.js.map",
+    "static/js/2.a7e72c82.chunk.js": "/~bnibetarotation/static/js/2.a7e72c82.chunk.js",
+    "static/js/2.a7e72c82.chunk.js.map": "/~bnibetarotation/static/js/2.a7e72c82.chunk.js.map",
+    "index.html": "/~bnibetarotation/index.html",
+    "precache-manifest.4e3873931015b73c2f3ac1455073513c.js": "/~bnibetarotation/precache-manifest.4e3873931015b73c2f3ac1455073513c.js",
+    "service-worker.js": "/~bnibetarotation/service-worker.js"
   }
 }
