@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ef466c6c322ed0be75189d400b7afca1",
+    "revision": "2c37d83c171e5e105aca0ec3142b4b6c",
     "url": "/~bnibetarotation/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/~bnibetarotation/static/js/2.6a95eda8.chunk.js"
   },
   {
-    "revision": "f7b691ce16a58ba03851",
-    "url": "/~bnibetarotation/static/js/main.646e8839.chunk.js"
+    "revision": "ff5150b2600e77ba83b4",
+    "url": "/~bnibetarotation/static/js/main.6a583973.chunk.js"
   },
   {
     "revision": "2100c0e3f7c87e6c2ddc",

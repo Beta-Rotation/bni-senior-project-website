@@ -23,7 +23,7 @@ function App() {
     <Container>
       <Header />
       <ScWrapper>
-        <Switch base="/~bnibetarotation">
+        <Switch basename="/~bnibetarotation">
           <Route path="/ProgressCharts" component={ProgressCharts} />
           <Route path="/TimeTracker" component={TimeTracker} />
           <Route path="/DomainModel" component={DomainModel} />
