@@ -1,18 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import {
     Navbar,
     Nav,
-    NavItem
+    NavDropdown
 } from "react-bootstrap";
 
 const Header = () => {
     return (
         <header>
-            <Navbar bg="dark" expand="md">
+            <Navbar bg="dark" variant="dark" expand="md">
                 <LinkContainer to="/">
-                    <Navbar.Brand>Index Fun[ds]!</Navbar.Brand>
+                    <Navbar.Brand>Team Index Fun[ds]!</Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="navbar" />
 
@@ -24,9 +23,21 @@ const Header = () => {
                         <LinkContainer to="/ProgressCharts">
                             <Nav.Link>Progress Charts</Nav.Link>
                         </LinkContainer>
-                        <li className="nav-item">
-                            <a className="nav-link" href="./TimeTrackers.html">Time Trackers</a>
-                        </li>
+                        <LinkContainer to="/TimeTrackers">
+                            <Nav.Link>Time Trackers</Nav.Link>
+                        </LinkContainer>
+                    </Nav>
+                    <Nav>
+                        <NavDropdown title="Project Documents">
+                            <NavDropdown.Item href="https://docs.google.com/document/d/1F1gdHGxIq9B5S1vJwiCAnaqOMJhMp2uJZ-GZUMdfkkA/edit?usp=sharing" target="_blank">
+                                Project Plan
+                            </NavDropdown.Item>
+                            <LinkContainer to="/DomainModel">
+                                <NavDropdown.Item>
+                                    Domain Model
+                                </NavDropdown.Item>
+                            </LinkContainer>
+                        </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

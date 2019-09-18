@@ -1,10 +1,12 @@
 import React from 'react';
 import { Container } from "react-bootstrap";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import {
   Header,
   Footer,
-  Dashboard
+  Dashboard,
+  NotFound,
+  ProgressCharts
 } from "./components";
 
 function App() {
@@ -13,8 +15,11 @@ function App() {
     <Container>
       <Header />
       <React.Fragment>
-        <Route path="/ProgressCharts" />
-        <Route path="/" component={Dashboard} exact />
+        <Switch>
+          <Route path="/ProgressCharts" component={ProgressCharts} />
+          <Route path="/" exact component={Dashboard} />
+          <Route component={NotFound} />
+        </Switch>
       </React.Fragment>
       <Footer />
     </Container>
