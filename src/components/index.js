@@ -5,6 +5,7 @@ import NotFound from "./NotFound";
 import ProgressCharts from "./ProgressCharts";
 import TimeTracker from "./TimeTracker";
 import Resources from "./Resources";
+import DomainModel from "./DomainModel";
 
 export {
     Header,
@@ -13,5 +14,6 @@ export {
     NotFound,
     ProgressCharts,
     TimeTracker,
-    Resources
+    Resources,
+    DomainModel
 }
