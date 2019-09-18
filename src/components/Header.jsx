@@ -11,7 +11,7 @@ const Header = () => {
         <header>
             <Navbar bg="dark" variant="dark" expand="md">
                 <LinkContainer to="/">
-                    <Navbar.Brand>Team Index Fun[ds]!</Navbar.Brand>
+                    <Navbar.Brand>Index Fun[ds]!</Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="navbar" />
 
@@ -23,8 +23,11 @@ const Header = () => {
                         <LinkContainer to="/ProgressCharts">
                             <Nav.Link>Progress Charts</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to="/TimeTrackers">
-                            <Nav.Link>Time Trackers</Nav.Link>
+                        <LinkContainer to="/TimeTracker">
+                            <Nav.Link>Time Tracker</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/Resources">
+                            <Nav.Link>Project Resources</Nav.Link>
                         </LinkContainer>
                     </Nav>
                     <Nav>
