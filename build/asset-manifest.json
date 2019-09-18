@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.js": "/~bnibetarotation/static/js/main.c8769113.chunk.js",
-    "main.js.map": "/~bnibetarotation/static/js/main.c8769113.chunk.js.map",
+    "main.js": "/~bnibetarotation/static/js/main.ceefb8ea.chunk.js",
+    "main.js.map": "/~bnibetarotation/static/js/main.ceefb8ea.chunk.js.map",
     "runtime~main.js": "/~bnibetarotation/static/js/runtime~main.ed481ba9.js",
     "runtime~main.js.map": "/~bnibetarotation/static/js/runtime~main.ed481ba9.js.map",
-    "static/js/2.a7e72c82.chunk.js": "/~bnibetarotation/static/js/2.a7e72c82.chunk.js",
-    "static/js/2.a7e72c82.chunk.js.map": "/~bnibetarotation/static/js/2.a7e72c82.chunk.js.map",
+    "static/js/2.6a95eda8.chunk.js": "/~bnibetarotation/static/js/2.6a95eda8.chunk.js",
+    "static/js/2.6a95eda8.chunk.js.map": "/~bnibetarotation/static/js/2.6a95eda8.chunk.js.map",
     "index.html": "/~bnibetarotation/index.html",
-    "precache-manifest.4e3873931015b73c2f3ac1455073513c.js": "/~bnibetarotation/precache-manifest.4e3873931015b73c2f3ac1455073513c.js",
-    "service-worker.js": "/~bnibetarotation/service-worker.js"
+    "precache-manifest.3576c69c0201d66d6abe8ddeb4d9528a.js": "/~bnibetarotation/precache-manifest.3576c69c0201d66d6abe8ddeb4d9528a.js",
+    "service-worker.js": "/~bnibetarotation/service-worker.js",
+    "static/media/DomainModel.jpeg": "/~bnibetarotation/static/media/DomainModel.d7eed3a9.jpeg"
   }
 }
