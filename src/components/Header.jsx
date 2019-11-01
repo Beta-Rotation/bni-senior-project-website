@@ -20,19 +20,23 @@ const Header = () => {
                         <LinkContainer to="/">
                             <Nav.Link>About the Project</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to="/ProgressCharts">
-                            <Nav.Link>Progress Charts</Nav.Link>
-                        </LinkContainer>
-                        <LinkContainer to="/TimeTracker">
-                            <Nav.Link>Time Tracker</Nav.Link>
-                        </LinkContainer>
                         <LinkContainer to="/Resources">
                             <Nav.Link>Project Resources</Nav.Link>
                         </LinkContainer>
+                        <Nav.Link href="http://bnibetarotation.se.rit.edu" target="_blank">
+                            Project Web Application
+                        </Nav.Link>
                     </Nav>
                     <Nav>
                         <NavDropdown title="Project Documents">
-                            <NavDropdown.Item href="https://docs.google.com/document/d/1F1gdHGxIq9B5S1vJwiCAnaqOMJhMp2uJZ-GZUMdfkkA/edit?usp=sharing" target="_blank">
+                            <LinkContainer to="/ProgressCharts">
+                                <NavDropdown.Item>Progress Charts</NavDropdown.Item>
+                            </LinkContainer>
+                            <LinkContainer to="/TimeTracker">
+                                <NavDropdown.Item>Time Tracker</NavDropdown.Item>
+                            </LinkContainer>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="https://docs.google.com/document/d/1F1gdHGxIq9B5S1vJwiCAnaqOMJhMp2uJZ-GZUMdfkkA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 Project Plan
                             </NavDropdown.Item>
                             <LinkContainer to="/DomainModel">
@@ -40,6 +44,9 @@ const Header = () => {
                                     Domain Model
                                 </NavDropdown.Item>
                             </LinkContainer>
+                            <NavDropdown.Item href="https://docs.google.com/spreadsheets/d/1FSikFhZXgAnvy-vUnUyZ9fRj-Ef-W6qgOek7L2G_6Is/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                Risk Management Table
+                            </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>

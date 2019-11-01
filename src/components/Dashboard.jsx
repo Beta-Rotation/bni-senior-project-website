@@ -35,7 +35,7 @@ const Dashboard = () => {
                 </Col>
                 <Col md="3">
                     <h4>Project Sponsor:</h4>
-                    <p>Beltz Ianni &amp; Associates</p>
+                    <p><a href="https://beltz-ianni.com/" target="_blank" rel="noopener noreferrer">Beltz Ianni &amp; Associates</a></p>
                         <br />
                     <h4>Team Members:</h4>
                     <div>Stephen Cioffi</div>
