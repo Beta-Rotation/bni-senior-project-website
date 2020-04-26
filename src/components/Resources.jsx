@@ -16,16 +16,22 @@ const Resources = () => {
             <h3>Code Repositories (GitHub)</h3>
             <ul>
                 <li>
-                    <a href="https://github.com/scioffi/bni-senior-project-website" target="_blank" rel="noopener noreferrer">Team Website</a> - This website's code
+                    <a href="https://github.com/scioffi/bni-senior-project-website" target="_blank" rel="noopener noreferrer">Team Website</a> - This website's code (JavaScript/React)
                 </li>
                 <li>
-                    <a href="https://github.com/scioffi/bni-frontend" target="_blank" rel="noopener noreferrer">Fontend Application*</a> - Frontend Web Application (JavaScript)
+                    <a href="https://github.com/scioffi/bni-frontend" target="_blank" rel="noopener noreferrer">Fontend Application*</a> - Frontend Web Application (JavaScript/React)
                 </li>
                 <li>
-                    <a href="https://github.com/scioffi/bni-backend" target="_blank" rel="noopener noreferrer">Backend Application*</a> - Backend Web Application (Python)
+                    <a href="https://github.com/scioffi/bni-backend" target="_blank" rel="noopener noreferrer">Backend Application*</a> - Backend Web Application (JavaScript/Node)
                 </li>
                 <li>
                     <a href="https://github.com/scioffi/bni-algorithm-service" target="_blank" rel="noopener noreferrer">Algorithm Service*</a> - Algorithm service job and database scripts (Ruby)
+                </li>
+                <li>
+                    <a href="https://github.com/scioffi/bni-database" target="_blank" rel="noopener noreferrer">Database*</a> - Docker image to run our Database (MySQL)
+                </li>
+                <li>
+                    <a href="https://github.com/scioffi/bni-backtester" target="_blank" rel="noopener noreferrer">Backtester*</a> - Backtester application source code (Python)
                 </li>
             </ul>
                 <br /><br />

@@ -4,6 +4,8 @@ import {
     Row,
     Col
 } from "react-bootstrap";
+import EndOfSemesterVideo from "../assets/EndofSemesterVideo.mp4";
+import EndOfYearVideo from "../assets/EndOfYearVideo.mp4";
 
 const ScCenter = styled.div`
     text-align: center;
@@ -32,6 +34,14 @@ const Dashboard = () => {
                         a signal to a financial advisor, the application will present a dashboard view which allows advisors to view the Beta Rotation strategy 
                         numbers in or close to real-time.
                     </p>
+                        <br /><hr /><br />
+                    <h2>Semester Videos</h2>
+                        <br />
+                    <h4>End of First Semester</h4>
+                    <video src={EndOfSemesterVideo} controls width="100%" />
+                        <br/><br />
+                    <h4>End of Final Semester</h4>
+                    <video src={EndOfYearVideo} controls width="100%" />
                 </Col>
                 <Col md="3">
                     <h4>Project Sponsor:</h4>
@@ -42,6 +52,9 @@ const Dashboard = () => {
                     <div>Ian Clare</div>
                     <div>Catherine Osadciw</div>
                     <div>Kyle Rohde</div>
+                        <br />
+                    <h4>Project Coach:</h4>
+                    <p><a href="https://www.se.rit.edu/~tjr/" target="_blank" rel="noopener noreferrer">Professor Reichlmayr</a></p>
                 </Col>
             </Row>
         </React.Fragment>
