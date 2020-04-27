@@ -47,6 +47,11 @@ const Header = () => {
                             <NavDropdown.Item href="https://docs.google.com/spreadsheets/d/1FSikFhZXgAnvy-vUnUyZ9fRj-Ef-W6qgOek7L2G_6Is/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 Risk Management Table
                             </NavDropdown.Item>
+                            <LinkContainer to="/Poster">
+                                <NavDropdown.Item>
+                                    Final Project Poster
+                                </NavDropdown.Item>
+                            </LinkContainer>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>

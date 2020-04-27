@@ -10,7 +10,8 @@ import {
   ProgressCharts,
   TimeTracker,
   Resources,
-  DomainModel
+  DomainModel,
+  Poster
 } from "./components";
 
 const ScWrapper = styled.div`
@@ -28,6 +29,7 @@ function App() {
           <Route path="/TimeTracker" component={TimeTracker} />
           <Route path="/DomainModel" component={DomainModel} />
           <Route path="/Resources" component={Resources} />
+          <Route path="/Poster" component={Poster} />
           <Route path="/" exact component={Dashboard} />
           <Route component={NotFound} />
         </Switch>

@@ -6,6 +6,7 @@ import ProgressCharts from "./ProgressCharts";
 import TimeTracker from "./TimeTracker";
 import Resources from "./Resources";
 import DomainModel from "./DomainModel";
+import Poster from "./Poster";
 
 export {
     Header,
@@ -15,5 +16,6 @@ export {
     ProgressCharts,
     TimeTracker,
     Resources,
-    DomainModel
+    DomainModel,
+    Poster
 }
