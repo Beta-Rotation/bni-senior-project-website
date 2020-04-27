@@ -37,11 +37,16 @@ const Dashboard = () => {
                         <br /><hr /><br />
                     <h2>Semester Videos</h2>
                         <br />
-                    <h4>End of First Semester</h4>
-                    <video src={EndOfSemesterVideo} controls width="100%" />
-                        <br/><br />
-                    <h4>End of Final Semester</h4>
-                    <video src={EndOfYearVideo} controls width="100%" />
+                    <Row>
+                        <Col md="6">
+                            <h4>End of First Semester</h4>
+                            <video src={EndOfSemesterVideo} controls width="100%" />
+                        </Col>
+                        <Col md="6">
+                            <h4>End of Final Semester</h4>
+                            <video src={EndOfYearVideo} controls width="100%" />
+                        </Col>
+                    </Row>
                 </Col>
                 <Col md="3">
                     <h4>Project Sponsor:</h4>
